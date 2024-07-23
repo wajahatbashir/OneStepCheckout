@@ -1,5 +1,5 @@
 # OneStepCheckout
-Custom checkout for Guest user
+Custom checkout for Guest user - Tested on Magento 2.4
 
 ## Overview
 
@@ -39,13 +39,13 @@ php bin/magento cache:clean
 php bin/magento cache:flush
 ```
 
-##Configuration
+## Configuration
 
 1. **Log in to the Magento admin panel.**
 2. **Navigate to Stores > Configuration > Sales > Checkout > WB One Step Checkout.**
 3. **Enable or disable the module for specific stores and configure the custom note to display on the checkout page.**
 
-##Usage
+## Usage
 
 When the module is enabled and configured, it will:
 
@@ -53,6 +53,6 @@ When the module is enabled and configured, it will:
 2. Hide specific fields in the checkout process.
 3. Display custom messages based on the subtotal in the order summary section.
 
-##Support
+## Support
 
 For any issues or feature requests, please open an issue on the GitHub repository.
